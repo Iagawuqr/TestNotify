@@ -1,7 +1,7 @@
 -- Leaked by collin full source
 
 --CONFIG
-getgenv().webhook = "https://discord.com/api/webhooks/1412574248140275852/beHJxTbE6bmE-AK0Blr2_NLDvx8LNgen0ePOOrhoS7bFgZI2D5m9hsKzJdAy5S9daUpB"
+getgenv().webhook = "https://discord.com/api/webhooks/1412605130896965662/eCjBaGTJfaki2Ormn6QXWPwGckwuRWMX3w2af6AVUUjrOznCxZoBJX9ZLPP-Ew61u-vw"
 getgenv().websiteEndpoint = nil
 
 -- Allowed place IDs
@@ -16,7 +16,7 @@ getgenv().TargetPetNames = {
     "Pot Hotspot",
     "Nuclearo Dinossauro",  
     "Chicleteira Bicicleteira", "Los Combinasionas", "Dragon Cannelloni",
-    "Unclito Samito",
+    "Unclito Samito", "Los Matteo", "tartaruga cisterna", "Tralalero Tralala", "Crabbo Limonetta",
    
 }
 
@@ -64,7 +64,7 @@ local function sendWebhook(foundPets, jobId)
     local joinLink = buildJoinLink(game.PlaceId, jobId)
 
     local embedData = {
-        username = "Leaked by collin gng",
+        username = "Notify By Sla",
         embeds = { {
             title = "🐾 Pet(s) Found!",
             description = "**Pet(s):**\n" .. table.concat(formattedPets, "\n"),
@@ -86,7 +86,7 @@ local function sendWebhook(foundPets, jobId)
                     inline = false
                 }
             },
-            footer = { text = "Leaked by collin gng" },
+            footer = { text = "Scam E vida 🔥" },
             timestamp = DateTime.now():ToIsoDate()
         } }
     }
